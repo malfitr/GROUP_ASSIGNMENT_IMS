@@ -1,0 +1,233 @@
+
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  padding: 5;
+  box-sizing: content-box;
+  color: #333;
+}
+
+header {
+  background-color: #000;
+  font-style: italic;
+  color:gold;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 3em;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  padding: 2em 0;
+}
+    
+    .contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(background\ chick\ 1.png);
+    background-size: cover;
+}
+    
+.contact .content
+{
+    max-width: 500px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p
+{
+    font-weight: 500;
+    color: #fff;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.contact .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    background:black;
+}
+.contact .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 10px;
+    font-size: 22px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+    font-weight: 500;
+    color: yellow;
+}
+.container .contactInfo .box .text p
+{
+    font-weight: 500;
+    color: whitesmoke
+;
+}
+.contact-container 
+{
+ width: 30%;
+ padding: 40px;
+ background: black;   
+}
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-btn {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #232426;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: yellow;
+}
+    
+    </style>
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moksumung Ayam Goreng</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Moksumung Ayam Goreng  <img src="circular_logo.png" width="70"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="promotion.html">Promotion</a></li>
+                    <li><a href="Feedback.html">Feedback</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="Place.html">Place Order</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+                <section class="contact">
+                    <div class="content">
+                    </div>
+                    <div class="container">
+                        <div class="contactInfo">
+                            <div class="box">
+                                <div class="text">
+                                    <h3>Address</h3>
+                                    <p>PT 1990-A & PT1990-B, Jalan Pasir Hor, BATU 4, 15150 Kota Bharu, Kelantan</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="text">
+                                    <h3>Phone</h3>
+                                    <p>018-900 5144</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-container">
+                            <h1>SEND MESSAGES</h1>
+                            <form action="/submit_form" method="POST">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>         
+   
+
+    
+    </div>
+    </body>
+    </html>

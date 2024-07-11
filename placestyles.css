@@ -1,0 +1,110 @@
+
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 3em;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+header {
+    background-color: black;
+    color: gold;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.order-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+
+.order-form label {
+    display: block;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #333;
+}
+
+.order-form input,
+.order-form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+}
+
+.order-form textarea {
+    height: 100px;
+}
+
+.product-selection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.product-selection input[type="radio"] {
+    margin-bottom: 5px; 
+}
+
+.product-selection label {
+    margin-left: 5px;
+}
+
+.order-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background-color: darkgreen;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
